@@ -1,10 +1,10 @@
 BINARY=algosort
 
 build:
-	go build -o bin/$(BINARY) main.go
+	go build -o bin/$(BINARY) cmd/main.go
 
 run:
-	go run main.go
+	go run cmd/main.go
 
 test:
 	go test ./sorting
